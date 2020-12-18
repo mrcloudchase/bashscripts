@@ -19,3 +19,8 @@ for IP in ${IP_LIST[@]}; do
     fi
         ssh-copy-id "$USER"@"$IP" # Copy ssh-key for each IP iteration
 done
+
+
+
+
+# Considerations for improvement would be to use a heredoc and/or script args to pass prompts in an automated fashion
